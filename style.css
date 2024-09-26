@@ -8519,11 +8519,6 @@ button {
 
 */
 
-
-.pcon {
-  display: block !important;
-}
-
 #sec01 ul.reserv {
   margin: 10px auto 0;
   width: 885px;
@@ -8653,7 +8648,7 @@ img.wp-image-93 {
   #sec10 ul.reserv,
   #sec14 ul.reserv {
     width: 100%;
-    display: block;
+    display: flex;
     margin: 20px auto 0;
     padding-bottom: 25px;
   }
@@ -8663,6 +8658,7 @@ img.wp-image-93 {
 
   .soudan,
   .yoyaku {
+    padding: 0 4px;
     max-width: 560px;
     width: 90%;
     text-align: center;
@@ -8701,6 +8697,7 @@ img.wp-image-93 {
 }
 
 @media screen and (max-width: 768px) {
+
   .ctwlpt-wrap br {
     display: block !important;
   }
