@@ -8615,6 +8615,11 @@ img.wp-image-93 {
   display: block;
 }
 
+#ctwlpt-wrap .wp-block-image {
+  width: 100%;
+  text-align: center;
+}
+
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
 
   .soudan,
